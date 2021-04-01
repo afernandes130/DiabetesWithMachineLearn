@@ -10,12 +10,12 @@ O intuito dessa demo √© utilizar o modelo de ML apresentado acima em uma aplica√
 
 ```bash
 # Run script
-python part_manager.py
+python poc.py
 
 # Compiled with Pyinstaller
 # Windows
-pyinstaller --onefile --windowed part_manager.py
+pyinstaller --onefile --windowed poc.py
 
 # MacOS
-pyinstaller --onefile --add-binary='/System/Library/Frameworks/Tk.framework/Tk':'tk' --add-binary='/System/Library/Frameworks/Tcl.framework/Tcl':'tcl' part_manager.py
+pyinstaller --onefile --add-binary='/System/Library/Frameworks/Tk.framework/Tk':'tk' --add-binary='/System/Library/Frameworks/Tcl.framework/Tcl':'tcl' poc.py
 ```
